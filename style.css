@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap');
+
+body {
+    background-color: blanchedalmond;
+    font-family: 'Dancing Script', cursive;
+}
+
+#mainNavbar {
+    background-color: rgb(241, 174, 74);
+}
+
+#mainNavbar .navbar-brand{
+    font-size: 2.2em;
+}
+
+#mainNavbar .nav-item {
+    font-size: 1.8em;
+}
+
+#home h1 {
+    font-size: 3.8em;
+}
+
+#home p {
+    font-size: 1.6em;
+}
+
+section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.heading {
+    font-size: 2.6em;
+}
+
+.story,.services p {
+    margin-top: 20px;
+    font-size: 1.6em;
+}
+
+.services {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    font-size: 2em;
+}
+
+.services .service-item {
+    margin-bottom: 5px;
+    color: rgb(241, 174, 74);
+}
+
+.services .service-item:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+.contact {
+    list-style: none;
+}
+
+.contact > li{
+    line-height: 2;
+    font-size: 1.4em;
+    text-align: left;
+    padding: 6px;
+}
+
+.contact i{
+    padding-right: 20px;
+}
+
+footer {
+    background-color: rgb(241, 174, 74);
+    padding: 20px;;
+}
+
+.subscribe .newsletter {
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.subscribe input {
+    padding: 2px;
+    margin-right: 2px;
+    outline: none;
+    border: transparent;
+    border-radius: 4px;
+    font-size: 1.3em;
+}
+
+.subscribe button {
+    padding: 2px;
+    margin-bottom: 7px;
+    font-size: 1.3em;
+}
